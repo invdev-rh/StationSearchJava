@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Station Search</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand">StationSearchCore Web</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark">Home</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+
+            <div class="jumbotron">
+                <h1>Train Station Finder</h1>
+                <p class="lead">This website allows you to find train stations.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row">
+                        <input type="search" id="stationName" style="width: 100%" placeholder="Enter Station Name...">
+                    </div>
+                    <div class="row">
+                        <table class="keyboard">
+                            <tbody>
+                                <tr>
+                                    <td><button class="btn">A</button></td>
+                                    <td><button class="btn">B</button></td>
+                                    <td><button class="btn">C</button></td>
+                                    <td><button class="btn">D</button></td>
+                                    <td><button class="btn">E</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button class="btn">F</button></td>
+                                    <td><button class="btn">G</button></td>
+                                    <td><button class="btn">H</button></td>
+                                    <td><button class="btn">I</button></td>
+                                    <td><button class="btn">J</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button class="btn">K</button></td>
+                                    <td><button class="btn">L</button></td>
+                                    <td><button class="btn">M</button></td>
+                                    <td><button class="btn">N</button></td>
+                                    <td><button class="btn">O</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button class="btn">P</button></td>
+                                    <td><button class="btn">Q</button></td>
+                                    <td><button class="btn">R</button></td>
+                                    <td><button class="btn">S</button></td>
+                                    <td><button class="btn">T</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button class="btn">U</button></td>
+                                    <td><button class="btn">V</button></td>
+                                    <td><button class="btn">W</button></td>
+                                    <td><button class="btn" disabled="disabled">X</button></td>
+                                    <td><button class="btn">Y</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button class="btn">Z</button></td>
+                                    <td><button class="btn" disabled="disabled"> </button></td>
+                                    <td><button class="backspaceBtn" disabled="disabled">&lt;&lt;</button></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <strong>Search Results:</strong>
+                    </div>
+                    <div class="row">
+                        <table id="searchResults">
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2025 - StationSearchCore Web - <a>Privacy</a>
+        </div>
+    </footer>
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/js/site.js"></script>
+</body>
+
+</html>
